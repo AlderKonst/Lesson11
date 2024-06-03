@@ -43,4 +43,4 @@ def creator():
 def replace_dir():
     replacable_dir = input('Введите директорию для дальнейшего использования в качестве рабочей: ')
     os.chdir(replacable_dir)
-    print(f'Новый путь рабочей папки: {replacable_dir}')
+    print(f'Путь рабочей папки теперь такой: {replacable_dir}')
