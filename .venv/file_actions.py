@@ -38,7 +38,9 @@ def os_info():
     print(os.name)
 
 def creator():
-    print('Создатель проги Свечников А.К.')
+    author = 'Создатель проги Свечников А.К.'
+    print(author)
+    return author
 
 def replace_dir():
     replacable_dir = input('Введите директорию для дальнейшего использования в качестве рабочей: ')
