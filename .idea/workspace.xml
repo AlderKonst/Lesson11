@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf4c01db-3ae1-45cc-b216-6cd5243340f8" name="Changes" comment="Небольшое изменение в конце кода">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Консольный файловый менеджер.iml" afterDir="false" />
+    <list default="true" id="cf4c01db-3ae1-45cc-b216-6cd5243340f8" name="Changes" comment="Пункты задания 4 и 5 сделал по минимуму, поскольку времени нет, нужноу учить материалы стажировки">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/borndayforewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/borndayforewer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/choicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/choicing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/file_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/file_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/input_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/input_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/test_filemanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/test_filemanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/use_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/use_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="small_changes" />
+        <entry key="$PROJECT_DIR$" value="testing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,12 +65,89 @@
     "Python.Meta.executor": "Run",
     "Python.borndayforewer.executor": "Run",
     "Python.choicing.executor": "Run",
+    "Python.file_actions.executor": "Run",
     "Python.start_menu.executor": "Run",
+    "Python.use_functions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "testing",
+    "git-widget-placeholder": "writing",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RunManager" selected="Python.start_menu">
+    <configuration name="file_actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Консольный файловый менеджер" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/file_actions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Консольный файловый менеджер" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/start_menu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="use_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Консольный файловый менеджер" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/use_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start_menu" />
+        <item itemvalue="Python.file_actions" />
+        <item itemvalue="Python.use_functions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -135,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717437931360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Пункты задания 4 и 5 сделал по минимуму, поскольку времени нет, нужноу учить материалы стажировки">
+      <option name="closed" value="true" />
+      <created>1717519947459</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717519947459</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Пункты задания 4 и 5 сделал по минимуму, поскольку времени нет, нужноу учить материалы стажировки">
+      <option name="closed" value="true" />
+      <created>1717520140393</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717520140393</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ответы на задания" />
     <MESSAGE value="Небольшое изменение в конце кода" />
-    <option name="LAST_COMMIT_MESSAGE" value="Небольшое изменение в конце кода" />
+    <MESSAGE value="Пункты задания 4 и 5 сделал по минимуму, поскольку времени нет, нужноу учить материалы стажировки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пункты задания 4 и 5 сделал по минимуму, поскольку времени нет, нужноу учить материалы стажировки" />
   </component>
 </project>
