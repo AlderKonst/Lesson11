@@ -33,6 +33,6 @@ def thirteen():
             break
         else:
             print('Неверный пункт меню')
-    return choice # Добавил для теста
-choice_num = int(thirteen())
-assert type(choice_num) is int, 'Нужно было вводить целые числа'
+
+        assert 0 < int(choice) < 13, 'Введено число за пределами пунктов 1 ... 12'
+        assert type(int(choice)) is int, 'Введено не число'

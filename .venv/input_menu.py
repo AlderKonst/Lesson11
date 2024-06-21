@@ -7,6 +7,4 @@ def menu():
     choice = input('Введите число действия: ')
     return choice
 
-choice_num = int(menu())
-assert choice_num > 0, 'Введите число больше нуля'
-assert type(choice_num) is int, 'Число должно быть целым'
+    assert len(lst()) > 0, 'В меню нет пунктов действия'
