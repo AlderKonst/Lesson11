@@ -6,3 +6,5 @@ def menu():
         print(f'{i+1}. {lst[i].capitalize()}')
     choice = input('Введите число действия: ')
     return choice
+
+    assert len(lst()) > 0, 'В меню нет пунктов действия'

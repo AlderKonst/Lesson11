@@ -33,3 +33,6 @@ def thirteen():
             break
         else:
             print('Неверный пункт меню')
+
+        assert 0 < int(choice) < 13, 'Введено число за пределами пунктов 1 ... 12'
+        assert type(int(choice)) is int, 'Введено не число'
