@@ -32,39 +32,27 @@ def see_dir():
     add_dir = input('Cохранить содержимое рабочей директории в файл?\ny/n\n')
     with (open('listdir.txt', 'w') as l):
         l.write(files)
-        for i in dirs:
-            if os.path.isfile(i):
-                l.write(i)
-                l.write(', ')
-        l.write(f'\n{folders}')
-        for i in dirs:
-            if not os.path.isfile(i):
-                l.write(i)
-                l.write(', ')
+# Однострочники
+        l.write(','.join(f for f in dirs if os.path.isfile(f)) + '\n' + folders)
+        l.write(','.join(f for f in dirs if not os.path.isfile(f)) + '\n')
+
     print('Итоговый файл с директорией создан')
     return os.path.exists('listdir.txt')  # Ещё вот добавил для примитвного теста
 
 def see_folders():
-    folders = [] # Код для теста
-    for i in os.listdir():
-        if not os.path.isfile(i):
-            print(i)
-            folders.append(i) # Код для теста
-    return folders # Код для теста
+# Однострочник
+    folders = [i for i in os.listdir() if not os.path.isfile(i)]
+    return folders
 
 
 def see_files():
-    files = []  # Код для теста
-    for i in os.listdir():
-        if os.path.isfile(i):
-            print(i)
-            files.append(i)  # Код для теста
-    return files  # Код для теста
+    files = [i for i in os.listdir() if os.path.isfile(i)]
+    return files
 
 def os_info():
     print(os.name)
-    n = os.name  # Код для теста
-    return n  # Код для теста
+    n = os.name
+    return n
 
 def creator():
     author = 'Создатель проги Свечников А.К.'
